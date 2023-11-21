@@ -137,5 +137,24 @@ header{
     right: 0;
 }
 
-/*Footer*/
+/*DOUBLE image*/
 
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+#cambio{
+
+}
+
+#cambio:hover .img1{
+    display: none;
+}
+
+#cambio:hover .img2{
+    display: block;
+}
