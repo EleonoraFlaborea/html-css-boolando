@@ -7,7 +7,15 @@
 
 /*Generics*/
 
+body{
+    padding-top: 100px;
+    font-family: sans-serif;
+}
 
+img{
+    max-width: 100%;
+    display: block;
+}
 
 /*Utils*/
 
@@ -20,6 +28,15 @@
     border: 2px dashed black;
 }
 
+.row{
+    display: flex;
+    /*gap: 10px;*/
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: calc(100%/ 3);
+}
 
 /*Header*/
 
@@ -29,12 +46,18 @@
 
 header{
     background-color: #FD6900;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
-
 
 /*Main*/
 
-
+.m-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /*Footer*/
 
